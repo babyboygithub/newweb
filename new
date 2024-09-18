@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dropdown Navbar</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: Arial, monospace, Sans-serif;
+            }
+            ul{
+                list-style: none;
+                overflow: hidden;
+                background-color: black;
+            }
+            li{
+                float: left
+            }
+            li a, .dropbtn{
+                            display: inline-block;
+                            color: white;
+                            text-align: center;
+                            padding: 16px 18px;
+                            text-decoration: none
+                            }
+            li a:hover, .dropbtn:hover .dropbtn {
+                background-color: darksalmon 
+            }
+
+            li a .dropdown{ 
+                display: inline-block
+            }
+
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: black;
+            }
+
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="#Home"><Home</a></li>
+            <li><a href="#About"><About</a></li>
+            <li><a href="#Contact"><Contact</a></li>
+            <li class="Dropdown">
+                <a href="#" class="dropbtn">Dropdown</a>
+                <div> class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 2</a>
+                <div> / .dropdown-content
+            </li> / .dropdown
+            <li><a href="sale">sale</a>
+
+        </ul>
+    </body>
+</html>
